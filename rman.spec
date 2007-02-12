@@ -1,5 +1,5 @@
 Summary:	PolyglotMan - reverse compilation of man pages
-Summary(pl.UTF-8):   PolyglotMan - dekompilacja stron manuala
+Summary(pl.UTF-8):	PolyglotMan - dekompilacja stron manuala
 Name:		rman
 Version:	3.2
 Release:	2
