@@ -1,5 +1,5 @@
 Summary:	PolyglotMan - reverse compilation of man pages
-Summary(pl):	PolyglotMan - dekompilacja stron manuala
+Summary(pl.UTF-8):   PolyglotMan - dekompilacja stron manuala
 Name:		rman
 Version:	3.2
 Release:	2
@@ -18,12 +18,12 @@ PolyglotMan was formerly known as RosettaMan. The name of the binary
 is still called rman, for scripts that depend on that name;
 mnemonically, just think "reverse man".
 
-%description -l pl
-PolyglotMan przyjmuje strony manuala z wiÍkszo∂ci popularnych rodzajÛw
-Uniksa i przekszta≥ca je w dowolny z wielu formatÛw ºrÛd≥owych.
-PolyglotMan by≥ poprzednio znany jako RosettaMan. Nazwa binarki to
-nadal rman ze wzglÍdu na skrypty zaleøne od tej nazwy - ale naleøy o
-niej my∂leÊ jako "reverse man" (odwrotny man).
+%description -l pl.UTF-8
+PolyglotMan przyjmuje strony manuala z wiƒôkszo≈õci popularnych rodzaj√≥w
+Uniksa i przekszta≈Çca je w dowolny z wielu format√≥w ≈∫r√≥d≈Çowych.
+PolyglotMan by≈Ç poprzednio znany jako RosettaMan. Nazwa binarki to
+nadal rman ze wzglƒôdu na skrypty zale≈ºne od tej nazwy - ale nale≈ºy o
+niej my≈õleƒá jako "reverse man" (odwrotny man).
 
 %prep
 %setup -q
