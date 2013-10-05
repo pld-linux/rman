@@ -1,0 +1,12 @@
+diff -dur rman-3.2.orig/rman.c rman-3.2/rman.c
+--- rman-3.2.orig/rman.c	2003-07-26 21:15:00.000000000 +0200
++++ rman-3.2/rman.c	2013-10-05 20:56:47.856549351 +0200
+@@ -1372,7 +1372,7 @@
+ 		break;
+ 	   case BEGINSECTION:	break;
+ 	   case ENDSECTION:
+-		if (sectheadid==NAME && message!=NULL) printf(message);
++		if (sectheadid==NAME && message!=NULL) printf("%s", message);
+ 		break;
+ 	   case BEGINSUBSECTION:	break;
+ 	   case ENDSUBSECTION:	break;

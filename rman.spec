@@ -2,12 +2,13 @@ Summary:	PolyglotMan - reverse compilation of man pages
 Summary(pl.UTF-8):	PolyglotMan - dekompilacja stron manuala
 Name:		rman
 Version:	3.2
-Release:	2
+Release:	3
 License:	Artistic
 Group:		Applications
 Source0:	http://dl.sourceforge.net/polyglotman/%{name}-%{version}.tar.gz
 # Source0-md5:	6d1d67641c6d042595a96a62340d3cc6
 Source1:	%{name}.1.pl
+Patch0:		%{name}-format_string.patch
 URL:		http://polyglotman.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -27,6 +28,7 @@ niej myśleć jako "reverse man" (odwrotny man).
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__make} \
