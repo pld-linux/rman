@@ -2,7 +2,7 @@ Summary:	PolyglotMan - reverse compilation of man pages
 Summary(pl.UTF-8):	PolyglotMan - dekompilacja stron manuala
 Name:		rman
 Version:	3.2
-Release:	3
+Release:	4
 License:	Artistic
 Group:		Applications
 Source0:	http://dl.sourceforge.net/polyglotman/%{name}-%{version}.tar.gz
